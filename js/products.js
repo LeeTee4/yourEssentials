@@ -1,10 +1,18 @@
-const buttons = document.querySelectorAll('button');
-buttons.forEach((button) => {
-    button.addEventListener('click', () => {
-        const targetDiv = document.querySelector(button.dataset.target);
-        document.querySelectorAll('div').forEach((div) => {
-            div.classList.add('product-class');
+// script.js
+document.querySelectorAll('.filter_products button').forEach(button => {
+    button.addEventListener('click', function() {
+        // Get the target div selector from the data attribute
+        const target = this.getAttribute('data-target');
+        
+        // Hide all product divs
+        document.querySelectorAll('.product-class').forEach(div => {
+            div.style.display = 'none';  // Hide all divs
         });
-        targetDiv.classList.remove('product-class');
-    })
+
+        // Show only the selected product div
+        const selectedDiv = document.querySelector(target);
+        if (selectedDiv) {
+            selectedDiv.style.display = 'block';  // Show the target div
+        }
+    });
 });
