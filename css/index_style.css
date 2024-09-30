@@ -1,0 +1,15 @@
+@import url(./global_styles.css);
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #323C4D;
+    color: white;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+body {
+    overflow-x: hidden;
+}
+
