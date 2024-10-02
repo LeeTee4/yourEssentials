@@ -1,8 +1,24 @@
 @import url(./global_styles.css);
 .product-class {
     display: none;
-    
+    width: 100%;
 }
-#t-shirts {
+#apparel {
     display: block;
+}
+.filter_products {
+    margin-bottom: 20px;
+}
+.filter_products button {
+    margin: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-color: white;
+}
+.filter_products button:focus {
+    box-shadow: none;
+}
+.active-button {
+    background-color: #007bff;
+    font-weight: bold;
+    color: white;
 }

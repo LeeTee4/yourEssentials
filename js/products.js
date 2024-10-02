@@ -1,18 +1,19 @@
-// script.js
 document.querySelectorAll('.filter_products button').forEach(button => {
     button.addEventListener('click', function() {
-        // Get the target div selector from the data attribute
-        const target = this.getAttribute('data-target');
-        
-        // Hide all product divs
-        document.querySelectorAll('.product-class').forEach(div => {
-            div.style.display = 'none';  // Hide all divs
-        });
+        // Remove active class from all buttons
+        document.querySelectorAll('.filter_products button').forEach(btn => btn.classList.remove('active-button'));
 
-        // Show only the selected product div
-        const selectedDiv = document.querySelector(target);
-        if (selectedDiv) {
-            selectedDiv.style.display = 'block';  // Show the target div
-        }
+        // Hide all product sections
+        document.querySelectorAll('.product-class').forEach(section => section.style.display = 'none');
+
+        // Show the corresponding product section
+        const target = this.getAttribute('data-target');
+        document.querySelector(target).style.display = 'block';
+
+        // Add active class to the clicked button
+        this.classList.add('active-button');
     });
 });
+
+// Set default: Show first section and make first button active
+document.querySelector('.filter_products button').click();
