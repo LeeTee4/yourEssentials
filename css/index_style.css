@@ -1,5 +1,5 @@
 @import url(./global_styles.css);
-.footer {
+/*.footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -8,7 +8,7 @@
     left: 0;
     bottom: 0;
     width: 100%;
-}
+}*/
 .footer-icons {
     text-align: center;
     margin: 20px 0;
@@ -30,6 +30,7 @@
     color: white;
     padding: 20px 0;
     position: relative;
+    bottom: 0;
 }
 
 .copyright {
@@ -50,7 +51,12 @@
 .back-to-top:hover {
     color: blueviolet; /* Add hover effect to arrow */
 }
-body {
-    overflow-x: hidden;
+.scrolling-text {
+    font-size: 24px; /* Adjust the font size as needed */
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #343a40;
+    padding: 10px; /* Optional: padding for better appearance */
+    text-align: center; /* Center the text */
+    border-radius: 5px; /* Optional: rounded corners */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */
 }
-
