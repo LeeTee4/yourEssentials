@@ -1,0 +1,44 @@
+@import url(./global_styles.css);
+
+h1, h5 {
+    color: #343a40;
+}
+
+.contact-info {
+    margin-top: 20px;
+}
+
+.contact-info p {
+    font-size: 1.1rem;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    text-decoration: underline;
+}
+/* Center the container and add padding */
+.contact-container {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 50px 0;
+}
+
+/* Style the form inputs with rounded corners */
+.form-control {
+    border-radius: 25px;
+}
+
+/* Additional spacing between form elements */
+.form-group {
+    margin-bottom: 20px;
+}
+
+/* Style the submit button with rounded corners */
+.btn {
+    border-radius: 25px;
+}

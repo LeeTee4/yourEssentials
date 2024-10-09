@@ -22,3 +22,18 @@
     font-weight: bold;
     color: white;
 }
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.list-group-item {
+    flex-grow: 0;
+}
+.products {
+    margin: 10px;
+}

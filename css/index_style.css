@@ -60,3 +60,15 @@
     border-radius: 5px; /* Optional: rounded corners */
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Optional: shadow effect */
 }
+.card {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body {
+    flex-grow: 1;
+}
+
+.list-group-item {
+    flex-grow: 0;
+}

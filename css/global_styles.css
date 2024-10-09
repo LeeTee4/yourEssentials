@@ -60,18 +60,3 @@ body {
     margin-top: 20px;
     padding: 15px;
 }
-
-.card {
-    margin-right: 30px;
-    margin-bottom: 30px;
-    display: flex; /* Enable flexbox for the card */
-    flex-direction: column; /* Align children vertically */
-}
-.list-group-item {
-  display: flex; /* Use flexbox to align items */
-  align-items: center; /* Center align the items vertically */
-}
-
-.card-body {
-  flex-grow: 1; /* Allow the body to grow and fill the space */
-}

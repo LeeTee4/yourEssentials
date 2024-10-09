@@ -1,32 +1,103 @@
 <html>
-    <head>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-        <link rel="stylesheet" href="../css/index_style.css">
-    </head>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/contact_styles.css" />
+    <title>your essentials|Get in touch</title>
+  </head>
 
-    <body style="margin: 0;">
-      <nav class="navbar sticky-top navbar-dark">
-        <div class="container-fluid" id="nav-items">
-            <div class="navbar-links">
-                <a class="navbar-brand" href="index.html">
-                    <i class="fas fa-home"></i> HOME
-                </a>
-                <a class="navbar-brand" href="products.html">
-                    <i class="fas fa-box-open"></i> OUR PRODUCTS
-                </a>
-                <a class="navbar-brand" href="contact_us.html">
-                    <i class="fas fa-envelope"></i> CONTACT US
-                </a>
-                <a class="navbar-brand" href="about_us.html">
-                    <i class="fas fa-info-circle"></i> ABOUT US
-                </a>
+  <body style="margin: 0">
+    <nav class="navbar sticky-top navbar-dark">
+      <div class="container-fluid" id="nav-items">
+        <div class="navbar-links">
+          <a class="navbar-brand" href="index.html">
+            <i class="fas fa-home"></i> HOME
+          </a>
+          <a class="navbar-brand" href="products.html">
+            <i class="fas fa-box-open"></i> OUR PRODUCTS
+          </a>
+          <a class="navbar-brand" href="contact_us.html">
+            <i class="fas fa-envelope"></i> CONTACT US
+          </a>
+          <a class="navbar-brand" href="about_us.html">
+            <i class="fas fa-info-circle"></i> ABOUT US
+          </a>
+        </div>
+
+        <div class="navbar-brand" id="nav-profile">
+          <span class="logo-text"
+            ><img src="../images/logo.PNG" alt="..." />our Essentials</span
+          >
+        </div>
+      </div>
+    </nav>
+    <div class="text-center">
+      <h1 class="text-center">Contact Us</h1>
+      <p class="text-center">Have any questions? We'd love to hear from you!</p>
+    </div>
+    <div class="container contact-container">
+
+      <div class="row justify-content-center">
+        <!-- Contact Form -->
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input type="text" class="form-control" id="name" required />
             </div>
-    
-          <div class="navbar-brand" id="nav-profile">
-            
-            <span class="logo-text"><img src="../images/logo.PNG" alt="...">our Essentials</span>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input type="email" class="form-control" id="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                class="form-control"
+                id="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="col-md-6 contact-info">
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:support@youressentials.com"
+              >support@youressentials.com</a
+            >
+          </p>
+          <p>
+            <strong>Phone:</strong>
+            <a href="tel:+263789752679">+263 789752679</a>
+          </p>
+          <p><strong>Address:</strong> Harare Institute of Technology</p>
+
+          <!-- Business Hours -->
+          <h5>Business Hours</h5>
+          <p>
+            Monday - Friday: 9:00 AM - 6:00 PM<br />Saturday: 10:00 AM - 4:00
+            PM<br />Sunday: Closed
+          </p>
+
+          <!-- Social Media Links -->
+          <h5>Follow Us</h5>
+          <div class="social-icons">
+            <a href="" target="_blank">Facebook</a> |
+            <a href="" target="_blank">Instagram</a>
           </div>
         </div>
-      </nav>
-    </body>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
 </html>

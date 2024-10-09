@@ -1,0 +1,27 @@
+@import url(./global_styles.css);
+
+
+.team-member {
+    margin-bottom: 30px;
+}
+
+.team-card {
+    text-align: center;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+    transition: box-shadow 0.3s ease;
+}
+
+.team-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.icon {
+    margin-right: 10px;
+    color: #007bff; /* Bootstrap primary color */
+}
+h2 {
+    margin-top: 110px;
+    color: #343a40;
+}
