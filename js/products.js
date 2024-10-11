@@ -17,3 +17,7 @@ document.querySelectorAll('.filter_products button').forEach(button => {
 
 // Set default: Show first section and make first button active
 document.querySelector('.filter_products button').click();
+
+function addToCart() {
+    alert('Item added to cart');
+}

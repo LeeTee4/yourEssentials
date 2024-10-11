@@ -36,28 +36,29 @@
     <main>
       <div class="products">
         <div class="filter_products text-center">
-          <button class="btn btn-outline-primary" data-target="#accessories">
-            Accessories
-          </button>
-          <button class="btn btn-outline-primary" data-target="#home-living">
-            Home and Living
-          </button>
           <button class="btn btn-outline-primary" data-target="#tech-gadgets">
             Tech Gadgets
           </button>
+          
+          <button class="btn btn-outline-primary" data-target="#home-living">
+            Home and Living
+          </button>
+          
           <button class="btn btn-outline-primary" data-target="#foot-ware">
             Footware
           </button>
-          <button class="btn btn-outline-primary" data-target="#jewelry">
+          <button class="btn btn-outline-primary" data-target="#jewelry-products">
             Jewelry
+          </button>
+          <button class="btn btn-outline-primary" data-target="#beauty-products">
+            Beauty
           </button>
         </div>
 
         <hr />
 
-
-        <div class="product-class" id="accessories">
-          <h3>Accessories Products</h3>
+        <div class="product-class" id="tech-gadgets">
+          <h3>Tech Gadgets</h3>
           <div class="col">
             <div class="row mb-5">
               <div class="col-md-3 d-flex">
@@ -65,157 +66,206 @@
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Wireless Earbuds"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Wireless Earbuds</h5>
+                    <p class="card-text">High-quality wireless earbuds with noise cancellation and touch controls.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$89.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Smartwatch"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Smartwatch</h5>
+                    <p class="card-text">Feature-packed smartwatch with fitness tracking and customizable watch faces.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$199.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Bluetooth Speaker"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Bluetooth Speaker</h5>
+                    <p class="card-text">Portable Bluetooth speaker with high sound quality and waterproof design.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$59.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Portable Charger"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Portable Charger</h5>
+                    <p class="card-text">Compact portable charger with fast charging capabilities and multiple ports.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$29.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
+        
             <div class="row mb-5">
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Smart Home Hub"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Smart Home Hub</h5>
+                    <p class="card-text">Control all your smart devices with this easy-to-use smart home hub.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$149.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Gaming Mouse"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Gaming Mouse</h5>
+                    <p class="card-text">Ergonomic gaming mouse with customizable DPI and RGB lighting.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$39.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Action Camera"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Action Camera</h5>
+                    <p class="card-text">Compact action camera with 4K video and waterproof casing.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$149.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="USB-C Hub"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">USB-C Hub</h5>
+                    <p class="card-text">Multi-port USB-C hub for connecting various devices to your laptop.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$34.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -223,7 +273,10 @@
             </div>
           </div>
         </div>
-
+        
+        
+        
+        
 
         <div class="product-class" id="home-living">
           <h3>Home and Living Products</h3>
@@ -234,157 +287,206 @@
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Table Lamp"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Table Lamp</h5>
+                    <p class="card-text">Modern table lamp with adjustable brightness and sleek design.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$49.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Scented Candles"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Scented Candles</h5>
+                    <p class="card-text">Luxury scented candles with long-lasting fragrance to enhance ambiance.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$29.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Throw Pillow"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Throw Pillow</h5>
+                    <p class="card-text">Soft and comfortable throw pillow, perfect for your couch or bed.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$19.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Wall Clock"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Wall Clock</h5>
+                    <p class="card-text">Stylish wall clock with a minimalist design that suits any home decor.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$39.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
+        
             <div class="row mb-5">
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Area Rug"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Area Rug</h5>
+                    <p class="card-text">Soft area rug with modern patterns, perfect for living rooms and bedrooms.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$79.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Picture Frame Set"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Picture Frame Set</h5>
+                    <p class="card-text">Elegant picture frame set to showcase your favorite memories.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$24.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Curtains"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Curtains</h5>
+                    <p class="card-text">Elegant, light-filtering curtains to enhance your home's ambiance.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$49.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Storage Bins"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Storage Bins</h5>
+                    <p class="card-text">Stylish and functional storage bins to keep your home organized.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$34.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -392,173 +494,8 @@
             </div>
           </div>
         </div>
-        <div class="product-class" id="tech-gadgets">
-          <h3>Tech Gadgets Products</h3>
-          <div class="col">
-            <div class="row mb-5">
-              <div class="col-md-3 d-flex">
-                <div class="card flex-fill" style="width: 100%">
-                  <img
-                    src="https://via.placeholder.com/60"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                  <ul class="list-group list-group-flush d-flex">
-                    <li class="list-group-item d-flex align-items-center">
-                      <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-md-3 d-flex">
-                <div class="card flex-fill" style="width: 100%">
-                  <img
-                    src="https://via.placeholder.com/60"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                  <ul class="list-group list-group-flush d-flex">
-                    <li class="list-group-item d-flex align-items-center">
-                      <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-md-3 d-flex">
-                <div class="card flex-fill" style="width: 100%">
-                  <img
-                    src="https://via.placeholder.com/60"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                  <ul class="list-group list-group-flush d-flex">
-                    <li class="list-group-item d-flex align-items-center">
-                      <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-md-3 d-flex">
-                <div class="card flex-fill" style="width: 100%">
-                  <img
-                    src="https://via.placeholder.com/60"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                  <ul class="list-group list-group-flush d-flex">
-                    <li class="list-group-item d-flex align-items-center">
-                      <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div class="row mb-5">
-              <div class="col-md-3 d-flex">
-                <div class="card flex-fill" style="width: 100%">
-                  <img
-                    src="https://via.placeholder.com/60"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                  <ul class="list-group list-group-flush d-flex">
-                    <li class="list-group-item d-flex align-items-center">
-                      <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-md-3 d-flex">
-                <div class="card flex-fill" style="width: 100%">
-                  <img
-                    src="https://via.placeholder.com/60"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                  <ul class="list-group list-group-flush d-flex">
-                    <li class="list-group-item d-flex align-items-center">
-                      <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-md-3 d-flex">
-                <div class="card flex-fill" style="width: 100%">
-                  <img
-                    src="https://via.placeholder.com/60"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                  <ul class="list-group list-group-flush d-flex">
-                    <li class="list-group-item d-flex align-items-center">
-                      <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-
-              <div class="col-md-3 d-flex">
-                <div class="card flex-fill" style="width: 100%">
-                  <img
-                    src="https://via.placeholder.com/60"
-                    class="card-img-top"
-                    alt="..."
-                  />
-                  <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
-                  </div>
-                  <ul class="list-group list-group-flush d-flex">
-                    <li class="list-group-item d-flex align-items-center">
-                      <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        
+        
         <div class="product-class" id="foot-ware">
           <h3>Footware Products</h3>
           <div class="col">
@@ -576,8 +513,14 @@
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
-                      <h6 class="mb-0">Price: </h6>
+                      <h6 class="mb-0">Price:</h6>
                       <span>$160.00</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -598,6 +541,12 @@
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
                       <span>$50.00</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -618,6 +567,12 @@
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
                       <span>$40.00</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -638,6 +593,12 @@
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
                       <span>$80.00</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -653,12 +614,20 @@
                   />
                   <div class="card-body">
                     <h5 class="card-title">NB Sneaker</h5>
-                    <p class="card-text">New Balance 530 'White Natural Indigo' MR530SG</p>
+                    <p class="card-text">
+                      New Balance 530 'White Natural Indigo' MR530SG
+                    </p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
                       <span>$79.00</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -673,12 +642,21 @@
                   />
                   <div class="card-body">
                     <h5 class="card-title">Women's sneakers</h5>
-                    <p class="card-text">Increasing Height Sandals Women Leather Round Toe Platform Fashion Sneaker Boots</p>
+                    <p class="card-text">
+                      Increasing Height Sandals Women Leather Round Toe Platform
+                      Fashion Sneaker Boots
+                    </p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
                       <span>$59.29</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -693,12 +671,21 @@
                   />
                   <div class="card-body">
                     <h5 class="card-title">Chanel slides</h5>
-                    <p class="card-text">Authentic Chanel 21C White Tweed Chain Logo Mules Sandals Slides EU 37,5 US 7,5</p>
+                    <p class="card-text">
+                      Authentic Chanel 21C White Tweed Chain Logo Mules Sandals
+                      Slides EU 37,5 US 7,5
+                    </p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
                       <span>$399.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -719,6 +706,12 @@
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
                       <span>$40.00</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -726,7 +719,7 @@
             </div>
           </div>
         </div>
-        <div class="product-class" id="jewelry">
+        <div class="product-class" id="jewelry-products">
           <h3>Jewelry Products</h3>
           <div class="col">
             <div class="row mb-5">
@@ -735,157 +728,206 @@
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Gold Necklace"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Gold Necklace</h5>
+                    <p class="card-text">Elegant gold necklace with a minimalist design.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$199.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Silver Ring"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Silver Ring</h5>
+                    <p class="card-text">Stylish silver ring adorned with a beautiful gemstone.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$89.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Diamond Earrings"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Diamond Earrings</h5>
+                    <p class="card-text">Exquisite diamond earrings perfect for special occasions.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$299.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Charm Bracelet"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Charm Bracelet</h5>
+                    <p class="card-text">Personalized charm bracelet with various charms.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$59.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
+        
             <div class="row mb-5">
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Pearl Bracelet"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Pearl Bracelet</h5>
+                    <p class="card-text">Classic pearl bracelet that adds elegance to any outfit.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$149.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Gold Hoop Earrings"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Gold Hoop Earrings</h5>
+                    <p class="card-text">Trendy gold hoop earrings for a stylish look.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$39.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Tennis Bracelet"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Tennis Bracelet</h5>
+                    <p class="card-text">Elegant tennis bracelet with shimmering stones.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$199.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
               </div>
-
+        
               <div class="col-md-3 d-flex">
                 <div class="card flex-fill" style="width: 100%">
                   <img
                     src="https://via.placeholder.com/60"
                     class="card-img-top"
-                    alt="..."
+                    alt="Birthstone Ring"
                   />
                   <div class="card-body">
-                    <h5 class="card-title">Product Name</h5>
-                    <p class="card-text">Description</p>
+                    <h5 class="card-title">Birthstone Ring</h5>
+                    <p class="card-text">Beautiful birthstone ring to celebrate your special month.</p>
                   </div>
                   <ul class="list-group list-group-flush d-flex">
                     <li class="list-group-item d-flex align-items-center">
                       <h6 class="mb-0">Price:</h6>
-                      <span>$</span>
+                      <span>$129.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
                     </li>
                   </ul>
                 </div>
@@ -893,6 +935,224 @@
             </div>
           </div>
         </div>
+        <div class="product-class" id="beauty-products">
+          <h3>Beauty Products</h3>
+          <div class="col">
+            <div class="row mb-5">
+              <div class="col-md-3 d-flex">
+                <div class="card flex-fill" style="width: 100%">
+                  <img
+                    src="https://via.placeholder.com/60"
+                    class="card-img-top"
+                    alt="Moisturizing Cream"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Moisturizing Cream</h5>
+                    <p class="card-text">Rich and hydrating cream to nourish and rejuvenate your skin.</p>
+                  </div>
+                  <ul class="list-group list-group-flush d-flex">
+                    <li class="list-group-item d-flex align-items-center">
+                      <h6 class="mb-0">Price:</h6>
+                      <span>$29.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        
+              <div class="col-md-3 d-flex">
+                <div class="card flex-fill" style="width: 100%">
+                  <img
+                    src="https://via.placeholder.com/60"
+                    class="card-img-top"
+                    alt="Lipstick"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Lipstick</h5>
+                    <p class="card-text">Long-lasting lipstick with a creamy finish and vibrant colors.</p>
+                  </div>
+                  <ul class="list-group list-group-flush d-flex">
+                    <li class="list-group-item d-flex align-items-center">
+                      <h6 class="mb-0">Price:</h6>
+                      <span>$19.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        
+              <div class="col-md-3 d-flex">
+                <div class="card flex-fill" style="width: 100%">
+                  <img
+                    src="https://via.placeholder.com/60"
+                    class="card-img-top"
+                    alt="Facial Cleanser"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Facial Cleanser</h5>
+                    <p class="card-text">Gentle cleanser that removes impurities and leaves skin feeling fresh.</p>
+                  </div>
+                  <ul class="list-group list-group-flush d-flex">
+                    <li class="list-group-item d-flex align-items-center">
+                      <h6 class="mb-0">Price:</h6>
+                      <span>$24.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        
+              <div class="col-md-3 d-flex">
+                <div class="card flex-fill" style="width: 100%">
+                  <img
+                    src="https://via.placeholder.com/60"
+                    class="card-img-top"
+                    alt="Perfume"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Perfume</h5>
+                    <p class="card-text">A captivating fragrance that lasts all day with floral notes.</p>
+                  </div>
+                  <ul class="list-group list-group-flush d-flex">
+                    <li class="list-group-item d-flex align-items-center">
+                      <h6 class="mb-0">Price:</h6>
+                      <span>$49.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+        
+            <div class="row mb-5">
+              <div class="col-md-3 d-flex">
+                <div class="card flex-fill" style="width: 100%">
+                  <img
+                    src="https://via.placeholder.com/60"
+                    class="card-img-top"
+                    alt="Face Mask"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Face Mask</h5>
+                    <p class="card-text">Hydrating face mask enriched with natural ingredients for glowing skin.</p>
+                  </div>
+                  <ul class="list-group list-group-flush d-flex">
+                    <li class="list-group-item d-flex align-items-center">
+                      <h6 class="mb-0">Price:</h6>
+                      <span>$15.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        
+              <div class="col-md-3 d-flex">
+                <div class="card flex-fill" style="width: 100%">
+                  <img
+                    src="https://via.placeholder.com/60"
+                    class="card-img-top"
+                    alt="Eyeshadow Palette"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Eyeshadow Palette</h5>
+                    <p class="card-text">Versatile eyeshadow palette with a range of vibrant shades.</p>
+                  </div>
+                  <ul class="list-group list-group-flush d-flex">
+                    <li class="list-group-item d-flex align-items-center">
+                      <h6 class="mb-0">Price:</h6>
+                      <span>$39.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        
+              <div class="col-md-3 d-flex">
+                <div class="card flex-fill" style="width: 100%">
+                  <img
+                    src="https://via.placeholder.com/60"
+                    class="card-img-top"
+                    alt="Nail Polish"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Nail Polish</h5>
+                    <p class="card-text">Long-lasting nail polish with a glossy finish available in various shades.</p>
+                  </div>
+                  <ul class="list-group list-group-flush d-flex">
+                    <li class="list-group-item d-flex align-items-center">
+                      <h6 class="mb-0">Price:</h6>
+                      <span>$9.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+        
+              <div class="col-md-3 d-flex">
+                <div class="card flex-fill" style="width: 100%">
+                  <img
+                    src="https://via.placeholder.com/60"
+                    class="card-img-top"
+                    alt="Hair Serum"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">Hair Serum</h5>
+                    <p class="card-text">Revitalizing hair serum to promote shine and reduce frizz.</p>
+                  </div>
+                  <ul class="list-group list-group-flush d-flex">
+                    <li class="list-group-item d-flex align-items-center">
+                      <h6 class="mb-0">Price:</h6>
+                      <span>$24.99</span>
+                      <button
+                        class="btn btn-primary btn-sm ml-5"
+                        onclick="addToCart()"
+                      >
+                        Add to cart
+                      </button>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        
         
       </div>
     </main>

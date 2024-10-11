@@ -6,6 +6,11 @@
     />
     <link rel="stylesheet" href="./css/contact_styles.css" />
     <title>your essentials|Get in touch</title>
+    <script>
+      function handlesubmit() {
+        alert('Message sent');
+      }
+    </script>
   </head>
 
   <body style="margin: 0">
@@ -42,7 +47,7 @@
       <div class="row justify-content-center">
         <!-- Contact Form -->
         <div class="col-md-6">
-          <form>
+          <form onsubmit="handlesubmit()">
             <div class="form-group">
               <label for="name">Name:</label>
               <input type="text" class="form-control" id="name" required />
