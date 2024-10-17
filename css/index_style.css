@@ -9,6 +9,27 @@
     bottom: 0;
     width: 100%;
 }*/
+.tech-gadgets-cta {
+    background: url('https://i.pinimg.com/control/236x/2f/89/53/2f89530cbdb9f40744f9889c245cee87.jpg') no-repeat center center;
+    background-size: cover;
+    height: 500px;
+    width:100%
+  }
+
+  .tech-gadgets-cta h1, 
+  .tech-gadgets-cta p {
+    color: white;
+  }
+
+  .tech-gadgets-cta .btn {
+    padding: 10px 30px;
+    font-size: 18px;
+  }
+
+  .category-box {
+    border-radius: 10px;
+    margin-top: 20px;
+  }
 .footer-icons {
     text-align: center;
     margin: 20px 0;

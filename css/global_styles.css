@@ -60,3 +60,46 @@ body {
     margin-top: 20px;
     padding: 15px;
 }
+
+.footer-icons {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.footer-icons a {
+  color: white;
+  font-size: 24px;
+  margin: 0 15px; /* Add spacing between icons */
+  text-decoration: none;
+}
+
+.footer-icons a:hover {
+  color: blueviolet; /* Add hover effect to change color */
+}
+
+.footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+  position: relative;
+  bottom: 0;
+}
+
+.copyright {
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 0;
+}
+
+.back-to-top {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+}
+
+.back-to-top:hover {
+  color: blueviolet; /* Add hover effect to arrow */
+}
